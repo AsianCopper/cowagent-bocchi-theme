@@ -1,42 +1,42 @@
-# CowAgent 自定义主题
+# CowAgent Theme - Bocchi
 
-一个为 CowAgent Web 界面设计的美化主题，包含白色侧边栏、聊天背景和自定义头像。
+A custom theme for the CowAgent web interface featuring a white sidebar, chat background, and custom avatar.
 
-## ✨ 特性
+## Features
 
-- **白色侧边栏** - 清新的白色主题，支持亮色/暗色模式自动切换
-- **聊天背景图片** - 美观的背景图片，带透明遮罩确保文字可读
-- **自定义头像** - 替换默认的 CowAgent Logo
+- **White Sidebar** - clean white sidebar with light/dark mode auto-switching
+- **Chat Background** - background image with transparent overlay for text readability
+- **Custom Avatar** - replaces the default CowAgent logo
 
-## 🚀 一键安装
+## Installation
 
-### 方法一：使用安装脚本（推荐）
+### One-click install (Windows)
 
-1. 下载 `install.bat`
-2. 双击运行
-3. 刷新浏览器页面
+1. Download `install.bat`
+2. Double-click to run
+3. Refresh browser page
 
-### 方法二：手动安装
+### Manual installation
 
-将以下文件复制到 CowAgent 对应目录：
+Copy the following files to the corresponding CowAgent directories:
 
 ```
-chat.html        -> channel/web/chat.html
-console.css      -> channel/web/static/css/console.css
-chat-bg.jpg      -> channel/web/static/chat-bg.jpg
-logo.jpg         -> channel/web/static/logo.jpg
+chat.html      -> channel/web/chat.html
+console.css    -> channel/web/static/css/console.css
+chat-bg.jpg    -> channel/web/static/chat-bg.jpg
+logo.jpg       -> channel/web/static/logo.jpg
 ```
 
-## 🖼️ 预览
+## Preview
 
-- 亮色模式：白色侧边栏 + 聊天背景
-- 暗色模式：自动适配暗色背景
+- Light mode: white sidebar with chat background
+- Dark mode: automatically adapts to dark background
 
-## 📝 备注
+## Notes
 
-- 安装前会自动备份原始文件到 `custom_backup` 目录
-- 如需恢复，可从备份目录复制文件回原位
+- Original files are automatically backed up to `custom_backup` directory before installation
+- To restore, copy files from the backup directory back to their original locations
 
-## 💝 制作
+## License
 
-By: 亚洲铜 x BocchiBot
+MIT
